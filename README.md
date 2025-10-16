@@ -6,6 +6,8 @@ guidance vs. outlines
 
 we're here to compare two structured generation libraries.
 
+todo: briefly describe the main diferences between guidance and outlines
+
 ### agentic use cases
 
 we will reimplement each tutorial using the other library, and compare the results.
