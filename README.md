@@ -29,7 +29,10 @@ We will reimplement two tutorials, each using the other library, and compare the
 
 <https://dottxt-ai.github.io/outlines/latest/examples/react_agent/>
 
-(we should probably download our own copies and commit)
+Local copies:
+
+- `docs/tutorials/guidance/tool_calling.ipynb`
+- `docs/tutorials/outlines/react_agent.md`
 
 ### Dynamic Task-Based Evaluation
 
