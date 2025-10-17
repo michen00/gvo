@@ -523,7 +523,7 @@ git push
 
 ```bash
 # Update single dependency
-uv add guidance>=0.3.2
+uv add "guidance>=0.3.2"
 
 # Update all dependencies (major versions)
 uv lock --upgrade
