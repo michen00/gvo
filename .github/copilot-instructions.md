@@ -134,7 +134,7 @@ gvo/
 ├── .pre-commit-config.yaml           # Pre-commit hook definitions
 ├── .ruff.toml                        # Ruff linter/formatter configuration
 ├── Makefile                          # Development workflow automation
-└── .readthedocs.yaml                 # ReadTheDocs build config
+└── .readthedocs.yaml                 # Read the Docs build config
 ```
 
 ### Key Files & Their Purposes
