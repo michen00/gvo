@@ -305,7 +305,7 @@ Install these for optimal development experience:
 - **Plugins**: pydantic.mypy for Pydantic model validation
 - **Excludes**: notebooks/, tests/, \*.ipynb (runtime-checked by pytest)
 - **Error Codes**: `ignore-without-code`, `redundant-expr`, `truthy-bool`
-- **Settings**: `warn_return_any`, `warn_unreachable`, `show_error_code_links`
+- **Settings**: `warn_return_any`, `warn_unreachable`, `show_error_codes`
 
 ### Pytest Configuration
 
