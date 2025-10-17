@@ -139,15 +139,15 @@ gvo/
 
 ### Key Files & Their Purposes
 
-File                            | Purpose
-------------------------------- | ------------------------------------------------------------------------------------------
-`pyproject.toml`                | PEP 621 project metadata, dependencies, tool configs (mypy, pytest, uv)
-`noxfile.py`                    | Session-based test automation (isolated environments)
-`.pre-commit-config.yaml`       | Security scanning (gitleaks, bandit), linting (ruff), type checking (mypy), spell checking
-`Makefile`                      | Development workflows (install, test, lint, clean, git hooks)
-`.ruff.toml`                    | Ruff config: `select = ["ALL"]`, Google-style docstrings, line-length=88, target=py312
-`src/gvo/bin/example_script.py` | CLI template using typer for future command-line tools
-`src/gvo/py.typed`              | PEP 561 marker indicating type hints are available
+| File                            | Purpose                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------ |
+| `pyproject.toml`                | PEP 621 project metadata, dependencies, tool configs (mypy, pytest, uv)                    |
+| `noxfile.py`                    | Session-based test automation (isolated environments)                                      |
+| `.pre-commit-config.yaml`       | Security scanning (gitleaks, bandit), linting (ruff), type checking (mypy), spell checking |
+| `Makefile`                      | Development workflows (install, test, lint, clean, git hooks)                              |
+| `.ruff.toml`                    | Ruff config: `select = ["ALL"]`, Google-style docstrings, line-length=88, target=py312     |
+| `src/gvo/bin/example_script.py` | CLI template using typer for future command-line tools                                     |
+| `src/gvo/py.typed`              | PEP 561 marker indicating type hints are available                                         |
 
 ### Architecture Principles
 
