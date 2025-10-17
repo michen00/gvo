@@ -490,12 +490,8 @@ make check
 
 # 5. Commit with conventional commit message
 git add .
-git commit -m "feat(benchmarks): add embedding similarity metric
-
-Implements cosine similarity comparison for generated outputs
-using sentence-transformers. Useful for semantic correctness
-evaluation.
-
+git commit -m "feat(benchmarks): add embedding similarity metric" \
+    -m "Implements cosine similarity comparison for generated outputs using sentence-transformers. Useful for semantic correctness evaluation.
 Refs: #42"
 
 # 6. Push and create PR
