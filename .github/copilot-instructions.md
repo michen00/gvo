@@ -124,7 +124,6 @@ gvo/
 ├── .github/
 │   ├── workflows/                    # CI/CD automation
 │   │   ├── CI.yml                    # Main CI pipeline
-│   │   ├── greet-new-contributors.yml
 │   │   └── lint-github-actions.yml
 │   └── copilot-instructions.md       # This file
 │
