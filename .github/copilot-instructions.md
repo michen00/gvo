@@ -450,7 +450,7 @@ uv sync --only-group test      # Install test dependencies only
 uv sync --no-editable          # Install without editable mode
 
 # Add/remove dependencies
-uv add guidance>=0.3.1         # Add new dependency
+uv add "guidance>=0.3.1"         # Add new dependency
 uv add --dev pytest-benchmark  # Add dev dependency
 uv remove unused-package       # Remove dependency
 
