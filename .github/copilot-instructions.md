@@ -393,6 +393,8 @@ pytest tests/test_example.py::test_example_function  # Run specific test
 ```python
 import guidance
 
+lm = guidance.llms.OpenAI("gpt-4")
+
 # Imperative control flow with context managers
 with guidance.system():
     lm += "You are a helpful assistant."
