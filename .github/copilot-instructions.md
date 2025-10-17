@@ -529,7 +529,7 @@ uv add "guidance>=0.3.2"
 uv lock --upgrade
 
 # Update all dependencies (minor/patch only)
-uv lock --upgrade-package guidance
+uv lock --upgrade
 
 # Verify tests still pass
 make check PARALLEL=true
