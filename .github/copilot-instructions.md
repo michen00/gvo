@@ -303,7 +303,6 @@ Install these for optimal development experience:
 
 - **Strict Mode**: Enabled (`strict = true`)
 - **Plugins**: pydantic.mypy for Pydantic model validation
-- **Excludes**: notebooks/, tests/, \*.ipynb (runtime-checked by pytest)
 - **Error Codes**: `ignore-without-code`, `redundant-expr`, `truthy-bool`
 - **Settings**: `warn_return_any`, `warn_unreachable`, `show_error_codes`
 
