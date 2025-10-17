@@ -522,14 +522,15 @@ git push
 ### Updating Dependencies
 
 ```bash
-# Update single dependency
+# Update single dependency (to a specific version or range)
 uv add "guidance>=0.3.2"
 
-# Update all dependencies (major versions)
+# Update all dependencies within allowed version constraints
+# (Major/minor/patch upgrades are controlled by constraints in pyproject.toml, e.g. ^1.2 or ~1.2.3)
 uv lock --upgrade
 
-# Update all dependencies (minor/patch only)
-uv lock --upgrade
+# To restrict upgrades to minor/patch only, set appropriate constraints in pyproject.toml.
+# For targeted upgrades, use uv add --upgrade-package or update constraints explicitly.
 
 # Verify tests still pass
 make check PARALLEL=true
