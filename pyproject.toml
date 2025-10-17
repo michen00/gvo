@@ -7,8 +7,10 @@ authors = [{ name = "Michael I Chen", email = "michael.chen.0@gmail.com" }]
 requires-python = ">=3.11"
 dependencies = [
     "guidance>=0.3.0",
+    "ipykernel>=7.0.1",
     "nox[uv]>=2025.10.14",
     "numpy>=2.3.4",
+    "openai>=2.4.0",
     "outlines>=1.2.7",
     "pandera[polars]>=0.25.0",
     "plotly>=6.3.1",
