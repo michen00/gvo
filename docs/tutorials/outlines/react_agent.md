@@ -33,19 +33,19 @@ model = outlines.from_llamacpp(llm)
 
 ??? note "(Optional) Store the model weights in a custom folder"
 
-    By default the model weights are downloaded to the hub cache but if we want so store the weights in a custom folder, we pull a quantized GGUF model [Hermes-2-Pro-Llama-3-8B](https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B-GGUF) by [NousResearch](https://nousresearch.com/) from [HuggingFace](https://huggingface.co/):
+By default the model weights are downloaded to the hub cache but if we want so store the weights in a custom folder, we pull a quantized GGUF model [Hermes-2-Pro-Llama-3-8B](https://huggingface.co/NousResearch/Hermes-2-Theta-Llama-3-8B-GGUF) by [NousResearch](https://nousresearch.com/) from [HuggingFace](https://huggingface.co/):
 
-    ```shell
-    wget https://hf.co/NousResearch/Hermes-2-Pro-Llama-3-8B-GGUF/resolve/main/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf
-    ```
+```shell
+wget https://hf.co/NousResearch/Hermes-2-Pro-Llama-3-8B-GGUF/resolve/main/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf
+```
 
-    We initialize the model:
+We initialize the model:
 
-    ```python
-    from llama_cpp import Llama
+```python
+from llama_cpp import Llama
 
-    llm = Llama("/path/to/model/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf", ...)
-    ```
+llm = Llama("/path/to/model/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf", ...)
+```
 
 ## Build a ReAct agent
 
